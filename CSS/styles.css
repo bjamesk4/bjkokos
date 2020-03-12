@@ -1,11 +1,25 @@
-a{
+.footer-link {
   color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  padding: 0 30px;
+  font-size: 20px;
+  text-decoration: none
+}
+
+a:hover{
+  color:#EAF6F6;
+}
+
+p {
+  line-height: 2;
 }
 
 body {
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
+  color: #40514E;
+  background-color: MintCream;
 }
 
 .top-container {
@@ -14,71 +28,133 @@ body {
   padding-top: 120px;
 }
 
+.profile{
+  margin-bottom: 50px;
+}
+
 h1 {
   margin: 50px auto 0 auto;
   font-family: 'Sacramento', cursive;
   font-size: 5.625rem;
-  color:#66BFBF;
-
+  color: #66BFBF;
 }
 
-h2{
+h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 2.5rem;
-  color:#66BFBF;
+  color: #66BFBF;
   font-weight: normal;
 }
+.touch{
+  margin-bottom: 50px;
+}
 
-h3{
+.btn {
+  box-shadow: 0 1px 0 0 #f0f7fa;
+  background: linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
+  background-color: #33bdef;
+  border-radius: 6px;
+  border: 1px solid #057fd0;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 8px 20px;
+  text-decoration: none;
+  text-shadow: 0 -1px 0 #5b6178;
+}
+
+.btn:hover {
+  background: linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
+  background-color: #019ad2;
+}
+
+.btn:active {
+  position: relative;
+  top: 1px;
+}
+
+h3 {
   font-family: 'Montserrat', sans-serif;
   color: #11999E;
 }
 
-.middle-container{
+.copyright {
+  color: #EAF6F6;
+  padding-top: 22px;
+  font-size: 0.75rem;
+}
+
+.middle-container {
+  margin: 100px 0 50px 0;
+}
+
+.intro{
+  width: 30%;
+  margin:auto;
+}
+
+.contactMessage{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.bottom-container {
   margin-top: 30px;
-
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
 }
-.bottom-container{
 
+hr{
+  border-style: dotted none none none;
+  width: 4%;
+  border-width: 6px;
+  border-color:lightgray;
+  margin: 75px auto;
 }
-.pro{
+
+.pro {
   text-decoration: underline;
 }
 
-.bottom-cloud{
+.bottom-cloud {
   position: absolute;
   left: 25%;
   bottom: 300px;
 }
 
-.top-cloud{
+.top-cloud {
   position: absolute;
   right: 25%;
   top: 50px;
 }
-.pro-pic{
+
+.pro-pic {
   height: 200px;
   width: 200px;
   border-radius: 100%;
 }
-.pot-pic{
+
+.pot-pic {
   width: 200px;
   height: 200px;
   border-radius: 100%;
   float: left;
   margin-right: 30px;
 }
-.code-pic{
+
+.code-pic {
   width: 200px;
   height: 200px;
   border-radius: 100%;
   float: right;
   margin-left: 30px;
 }
+
 .skill-row {
   width: 50%;
-  margin: 100px auto;
+  margin: 50px auto;
   text-align: left;
-  line-height: 2;
-
 }
